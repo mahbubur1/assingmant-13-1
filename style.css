@@ -1,0 +1,45 @@
+
+ /*----------- 
+     style for all tag 
+------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* google fon for all elements */
+body{
+    font-family: poppins;
+}
+          /*------- common class 
+          ---------------------------*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    
+}
+/* ----------navigation----------- */
+nav{
+    display: flex;
+    height: 150px;
+    justify-content:space-between;
+    align-items: center;
+}
+.introname h1{
+    font-weight: 700;
+    font-size: 24px;
+}
+nav>ul{
+    display: flex;
+}
+.navigation>li{
+    list-style: none;
+}
+.navigation>li>a{
+    text-decoration: none;
+    padding-right: 34px;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
