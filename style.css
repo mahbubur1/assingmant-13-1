@@ -173,6 +173,7 @@ button>a{
     padding: 0px 10%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
 }
 .Category h3{
     font-size: 25px ;
@@ -231,7 +232,7 @@ footer{
     .introname{
         position: absolute;
         top: 50px ;
-        left: 100px;
+        left: 150px;
     }
     .navigation>li>a{
          display: none;
@@ -239,7 +240,7 @@ footer{
      .mobile-device-navbars{
          display: block;
          position: absolute;
-         right: 380px;
+         right: 280px;
          top: 50px;
          font-size: 30px;
          margin-left: 300px;
@@ -272,10 +273,21 @@ footer{
      }
      .our-more-product{
         overflow: scroll;
-        padding: 0px 30px;
+        width: 480px;
+     }
+     .our-more-product h1{
+         width: 320px;
      }
      .Categories{
          grid-template-columns: 1fr;
+         width: 320px;
+         margin: 0px 20px;
+     }
+     footer{
+         width: 480px;
+     }
+     .footer-info{
+         width: 320px;
      }
  }
 /*-------------------------- media qurey for tablat 
@@ -299,7 +311,7 @@ footer{
         margin-left: 300px;
     }
     .influencer{
-        width: 320px;
+        width: 480px;
         height:400px;
     }
     .influencer-image img{
@@ -313,5 +325,35 @@ footer{
         grid-template-columns: repeat(4,1fr);
         grid-gap: 30px;
         margin-top: 80px;
+    }
+    .Collections{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .Collection{
+        width:280px;
+    }
+    .Collection> .product-photo img{
+        width: 200px;
+    }
+    .our-more-product{
+        overflow: scroll;
+        width: 768px;
+        align-items: center;
+     }
+     .our-more-product h1{
+         width: 480px;
+         text-align: center;
+     }
+     .Categories{
+        grid-template-columns: 1fr ;
+        width: 480px;
+        margin: 0px 20px;
+    }
+    footer{
+        width: 768px;
+    }
+    .footer-info{
+        width: 481px;
     }
 }
