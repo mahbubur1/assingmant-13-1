@@ -259,15 +259,20 @@ footer{
      }
      .others-company-logogs{
          display: grid;
-         grid-template-columns: repeat(4,1fr);
-         grid-gap: 30px;
+         grid-template-columns: repeat(3,1fr);
+         grid-column-gap: 5px;
+         margin-top: 40px;
      }
      .Collections{
          grid-template-columns: 1fr;
          align-items: center;
      }
+     .seemore{
+         justify-content: center;
+     }
      .our-more-product{
         overflow: scroll;
+        padding: 0px 30px;
      }
      .Categories{
          grid-template-columns: 1fr;
@@ -280,7 +285,7 @@ footer{
    .introname{
         position: absolute;
         top: 50px ;
-        left: 100px;
+        left: 200px;
     }
     .navigation>li>a{
         display: none;
@@ -293,9 +298,6 @@ footer{
         font-size: 30px;
         margin-left: 300px;
     }
-    .top-blog{
-        flex-direction: column-reverse;
-    }
     .influencer{
         width: 320px;
         height:400px;
@@ -305,5 +307,11 @@ footer{
     }
     .hr{
         display: none;
+    }
+    .others-company-logogs{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 30px;
+        margin-top: 80px;
     }
 }
