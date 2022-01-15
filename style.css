@@ -146,9 +146,9 @@ button>a{
     color: #787885;
 }
 .seemore{
-    position: absolute;
-    left: 1350px;
-    top: 2520px;
+    display: flex;
+    justify-content:end;
+    padding-top: 20px;
     color:#E02C6D;
     font-size: 20px;
     font-weight:700;
@@ -227,15 +227,11 @@ footer{
 
 /*----------- mobile device 
             -------------------------------------*/
- @media (min-width:320px) and (max-width:360px) {
-     body{
-         margin: 0;
-         padding:0px;
-     }
+ @media (min-width:320px) and (max-width:480px) {
     .introname{
         position: absolute;
         top: 50px ;
-        left: 250px;
+        left: 100px;
     }
     .navigation>li>a{
          display: none;
@@ -243,8 +239,8 @@ footer{
      .mobile-device-navbars{
          display: block;
          position: absolute;
-         right: 250px;
-         top: 70px;
+         right: 380px;
+         top: 50px;
          font-size: 30px;
          margin-left: 300px;
      }
@@ -277,3 +273,37 @@ footer{
          grid-template-columns: 1fr;
      }
  }
+/*-------------------------- media qurey for tablat 
+----------------------------------------------------------------------*/
+
+@media (min-width:481px) and (max-width:768px) {
+   .introname{
+        position: absolute;
+        top: 50px ;
+        left: 100px;
+    }
+    .navigation>li>a{
+        display: none;
+    }
+    .mobile-device-navbars{
+        display: block;
+        position: absolute;
+        right: 380px;
+        top: 50px;
+        font-size: 30px;
+        margin-left: 300px;
+    }
+    .top-blog{
+        flex-direction: column-reverse;
+    }
+    .influencer{
+        width: 320px;
+        height:400px;
+    }
+    .influencer-image img{
+        width: 320px;
+    }
+    .hr{
+        display: none;
+    }
+}
