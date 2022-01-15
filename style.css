@@ -43,3 +43,100 @@ nav>ul{
     font-size: 16px;
     font-weight: 600;
 }
+/* ----------main influencer & top blog 
+                                  --------------*/
+.top-blog{
+    display: flex;
+}
+.influencer{
+    width: 70%;
+}
+.influencer h2{
+    font-size: 52px;
+    font-weight: 700;
+}
+.influencer p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+button{
+    border: none;
+    background-color:#E02C6D;
+    padding: 14px 24px;
+    border-radius: 24px;
+    margin-top: 16px;
+}
+button>a{
+    text-decoration: none;
+}
+.primary-button{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 700;
+}
+.influencer-image img{
+    width: 100%;
+}
+/* line brake area  */
+.hr{
+    border: 1px solid lightgray;
+}
+.others-company-logogs{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+
+}
+.logo{
+    padding: 30px 0px;
+}
+/* -------product corner--------- */
+.collections-titel{
+    text-align: center;
+    margin-bottom:30px;
+    font-weight: 600;
+    font-size: 28px;
+}
+.Collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.Collection{
+    box-shadow: 5px 5px 5px 10px lightgray;
+    width: 329px;
+    height: 476px;
+    background-color: #FFFFFF;
+}
+.Collection>.product-photo img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    padding-top: 17px;
+}
+.product-photo, .product-titel, .price, .rating, .product-info{
+    padding-left: 15px;
+}
+.product-titel h2{
+    font-weight: 500;
+    font-size: 28px;
+    padding: 10px 0px 6px 0px;
+}
+.price{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.rating{
+    color: #FB8200;
+    font-size: 13px;
+    font-weight: 500;
+}
+.rating-point{
+    font-weight: 500;
+    color: #5E6366;
+    padding-left: 10px;
+}
+.product-info{
+    font-size: 14px;
+    color: #787885;
+}
