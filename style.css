@@ -228,6 +228,10 @@ footer{
 /*----------- mobile device 
             -------------------------------------*/
  @media (min-width:320px) and (max-width:360px) {
+     body{
+         margin: 0;
+         padding:0px;
+     }
     .introname{
         position: absolute;
         top: 50px ;
