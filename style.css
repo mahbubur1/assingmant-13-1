@@ -75,6 +75,9 @@ button>a{
     font-size: 16px;
     font-weight: 700;
 }
+.arow-icon{
+    padding-left: 10px;
+}
 .influencer-image img{
     width: 100%;
 }
@@ -139,4 +142,76 @@ button>a{
 .product-info{
     font-size: 14px;
     color: #787885;
+}
+.seemore{
+    position: absolute;
+    left: 1350px;
+    top: 2420px;
+    color:#E02C6D;
+    font-size: 20px;
+    font-weight:700;
+}
+.seemore a{
+    text-decoration: none;
+    color:#E02C6D;
+}
+/*------------ extra part ---------- */
+.our-more-product{
+    background-color: #AAAAAA;
+    margin-top: 100px;
+    height: 470px;
+}
+.our-more-product h1{
+    font-size:40px;
+    font-weight: 700;
+    text-align: center;
+    padding:70px 0px 50px 0px;
+}
+.Categories{
+    padding: 0px 10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Category h3{
+    font-size: 25px ;
+}
+.Category>ul>li>a{
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight:500;
+    color:black;
+    line-height: 1.9em;
+}  
+/* ---------------------
+         footer area style 
+         ------------------------------*/
+footer{
+    background-color: #120E43;
+    height: 250px;
+    box-shadow: 0px -10px 20px white;
+}
+.footer-info{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-info h2{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.footer-info>ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer-info>ul>li{
+    list-style: none;
+}
+.footer-info>ul>li>a{
+    color: white;
+    background-color: #e2dbdb59;
+    font-size: 20px;
+    padding: 1px 5px;
+    border-radius:5px ;
+    margin: 0px 20px 0px 0px;
 }
