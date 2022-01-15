@@ -231,7 +231,6 @@ footer{
      body{
          margin: 0;
          padding:0px;
-         width: 320px;
      }
     .introname{
         position: absolute;
@@ -255,6 +254,9 @@ footer{
      .influencer{
          width: 320px;
          height:400px;
+     }
+     .influencer-image img{
+         width: 320px;
      }
      .hr{
          display: none;
