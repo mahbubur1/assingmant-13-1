@@ -49,7 +49,8 @@ nav>ul{
     display: flex;
 }
 .influencer{
-    width: 70%;
+    width: 582px;
+    height: 270px;
 }
 .influencer h2{
     font-size: 52px;
@@ -79,7 +80,8 @@ button>a{
     padding-left: 10px;
 }
 .influencer-image img{
-    width: 100%;
+    width: 440px;
+    height: 414px;
 }
 /* line brake area  */
 .hr{
@@ -146,7 +148,7 @@ button>a{
 .seemore{
     position: absolute;
     left: 1350px;
-    top: 2420px;
+    top: 2520px;
     color:#E02C6D;
     font-size: 20px;
     font-weight:700;
@@ -215,3 +217,57 @@ footer{
     border-radius:5px ;
     margin: 0px 20px 0px 0px;
 }
+      /* mobile device style */
+.mobile-device-navbars{
+    display: none;
+}
+
+/*-------------------- midea query 
+               ---------------------------------------*/
+
+/*----------- mobile device 
+            -------------------------------------*/
+ @media (min-width:320px) and (max-width:480px) {
+    .introname{
+        position: absolute;
+        top: 50px ;
+        left: 250px;
+    }
+    .navigation>li>a{
+         display: none;
+     }
+     .mobile-device-navbars{
+         display: block;
+         position: absolute;
+         right: 250px;
+         top: 70px;
+         font-size: 30px;
+         margin-left: 300px;
+     }
+     .top-blog{
+         flex-direction: column-reverse;
+     }
+     .influencer{
+         width: 330px;
+         height:400px;
+     }
+     .hr{
+         display: none;
+     }
+     .others-company-logogs{
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+         grid-gap: 30px;
+
+     }
+     .Collections{
+         grid-template-columns: 1fr;
+         align-items: center;
+     }
+     .our-more-product{
+        overflow: scroll;
+     }
+     .Categories{
+         grid-template-columns: 1fr;
+     }
+ }
